@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/aditya"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView   android:layout_gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+            android:text="@string/enthusiastic_and_driven_fresher_focused_on_android_development_with_a_strong_interest_in_mobile_app_development_proficient_in_kotlin_having_created_multiple_projects_including_a_music_app_eager_to_leverage_my_skills_in_a_professional_environment_to_contribute_to_innovative_mobile_solutions_passionate_about_continuous_learning_and_keen_to_secure_a_role_where_i_can_grow_and_develop_my_skills_further" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/aditya"/>
+
+</LinearLayout>
